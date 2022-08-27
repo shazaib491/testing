@@ -17,4 +17,8 @@ router.get("/saveer",()=>{
     console.log("I am from protectr")
 })
 
+router.all("/protetctir", (req, res, next) => {
+    res.json({ message: "Hello i am protector'" })
+})
+
 module.exports = router;
