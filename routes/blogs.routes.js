@@ -13,4 +13,8 @@ router.patch("/updateData/:id", blogsController.updateData)
 
 router.delete("/deleteData/:id", blogsController.deleteData)
 
+router.all("/protetctir", (req, res, next) => {
+    res.json({ message: "Hello i am protector'" })
+})
+
 module.exports = router;
