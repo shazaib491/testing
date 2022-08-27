@@ -16,3 +16,6 @@ npm install --save-dev nodemon
   },
 
   to create nodejs command
+
+
+adding index.txt file to github in edit content
