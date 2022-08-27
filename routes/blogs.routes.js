@@ -33,4 +33,6 @@ router.post("addPost/:id",(req,res,next)=>{
     console.log("Add Post Saved")
 })
 
+router.post("Anonter");
+
 module.exports = router;
