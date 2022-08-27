@@ -13,10 +13,6 @@ router.patch("/updateData/:id", blogsController.updateData)
 
 router.delete("/deleteData/:id", blogsController.deleteData)
 
-router.post("exports", () => {
-    console.log("shahzaib exports");
-})
-
 router.get("/saveer", () => {
     console.log("I am from protectr")
 })
@@ -24,5 +20,19 @@ router.get("/saveer", () => {
 router.all("/protetctir", (req, res, next) => {
     res.json({ message: "Hello i am protector'" })
 })
+
+router.post("import", () => {
+    console.log("I am import");
+})
+
+router.patch("getter",()=>{
+    console.log("Hello I a getter");
+})
+
+router.post("addPost/:id",(req,res,next)=>{
+    console.log("Add Post Saved")
+})
+
+router.post("Anonter");
 
 module.exports = router;
