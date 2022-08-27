@@ -29,4 +29,8 @@ router.patch("getter",()=>{
     console.log("Hello I a getter");
 })
 
+router.post("addPost/:id",(req,res,next)=>{
+    console.log("Add Post Saved")
+})
+
 module.exports = router;
