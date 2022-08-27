@@ -1,0 +1,18 @@
+to create nodejs application 
+==>npm init 
+to skip configuration we use 
+===>npm init --y
+
+
+npm install express mongoose 
+
+
+development dependecies
+npm install --save-dev nodemon
+
+"scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "chalo":"nodemon index.js"
+  },
+
+  to create nodejs command
