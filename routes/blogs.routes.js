@@ -25,12 +25,16 @@ router.post("import", () => {
     console.log("I am import");
 })
 
-router.patch("getter",()=>{
+router.patch("getter", () => {
     console.log("Hello I a getter");
 })
 
-router.post("addPost/:id",(req,res,next)=>{
+router.post("addPost/:id", (req, res, next) => {
     console.log("Add Post Saved")
+})
+
+router.post("AddBlog", () => {
+    console.log("Hello World");
 })
 
 router.post("Anonter");
